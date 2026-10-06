@@ -5,7 +5,7 @@
 * **PATH Değişkeni Eksikliği:** Kurulum sırasında *"Add python.exe to PATH"* seçeneği işaretlenmediyse, komut satırı veya "Çalıştır" kutusu Python'ın yerini bilemez.
 * **Başlat Menüsünün Mantığı:** Başlat menüsü programların ham dosyalarını değil, arka planda oluşturulan `.lnk` uzantılı kısayolları tarar. Bu kısayolların içinde dosyanın tam adresi hazır olarak kayıtlı olduğu için Başlat menüsünden aratıldığında hemen açılır.
 
----
+
 
 ## 2. Python Dosya Sistemi Nasıl Biçimlenmiştir?
 Python tek bir büyük program dosyası değildir; bir yorumlayıcı motor ve kütüphanelerden oluşan modüler bir yapıya sahiptir:
@@ -17,7 +17,7 @@ Python tek bir büyük program dosyası değildir; bir yorumlayıcı motor ve k�
 * **`Scripts/`:** `pip.exe` gibi komut satırı araçlarının bulunduğu yerdir.
 * **`DLLs/` ve `tcl/`:** Arayüz çizimi (Tkinter) ve sistem işlemleri için gereken C tabanlı kütüphanelerdir.
 
----
+
 
 ## 3. Ana Klasörde Neden `idle.exe` Yok / Görünmüyor?
 
@@ -28,7 +28,7 @@ Python tek bir büyük program dosyası değildir; bir yorumlayıcı motor ve k�
 * **IDLE Bir Python Paketidir:** IDLE bizzat Python ve Tkinter arayüz modülüyle yazılmış bir Python betiğidir. Dosyaları kök dizinde değil, `Lib/idlelib/` klasörü altındadır.
 * **Arka Planda Nasıl Çalışır?** Başlat menüsündeki IDLE simgesine tıkladığımızda Windows aslında `pythonw.exe` motorunu çağırır ve ona `idlelib` modülünü açmasını söyler (`pythonw.exe -m idlelib.idle`). Konsol açılmadan doğrudan IDLE ekranının gelme sebebi budur.
 
----
+
 
 ## Kaynakça
 * [Python Software Foundation: Using Python on Windows](https://docs.python.org/3/using/windows.html)
