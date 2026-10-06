@@ -21,8 +21,7 @@ Python tek bir büyük program dosyası değildir; bir yorumlayıcı motor ve k�
 
 ## 3. Ana Klasörde Neden `idle.exe` Yok / Görünmüyor?
 
-![Python Kök Kurulum Dizini](<img width="1218" height="759" alt="image" src="https://github.com/user-attachments/assets/fffc3f47-a5c9-4e82-bbd7-2335dd482ce0" />
-)
+![Python Kök Kurulum Dizini](image.png)
 > *Görsel: Python ana kurulum dizini incelendiğinde bağımsız bir `idle.exe` dosyasının yer almadığı görülmektedir.*
 
 * **IDLE Ayrı Bir `.exe` Değildir:** Word veya Chrome gibi derlenmiş bağımsız bir program olmadığı için kök dizinde `idle.exe` diye bir dosya bulunmaz.
